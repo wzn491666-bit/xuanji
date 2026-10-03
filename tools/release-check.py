@@ -27,6 +27,7 @@ REQUIRED = (
 )
 SKIP_DIRS = {".git", ".gradle", ".idea", ".kotlin", ".vscode", ".npm", "build", "node_modules", "__pycache__"}
 EXCLUDED_PREFIXES = ("output/", "docs/design/references/", "app/src/main/assets/runtime/")
+EVIDENCE_PREFIX = "docs/open-source/license-texts/"
 PRIVATE_NAMES = {"local.properties", "keystore.properties", "signing.properties", "google-services.json", ".netrc", ".npmrc", ".pypirc"}
 PRIVATE_SUFFIXES = {".jks", ".keystore", ".p12", ".pfx", ".pem", ".key"}
 ARCHIVE_SUFFIXES = {".apk", ".aab", ".apks", ".tgz", ".gz", ".zip", ".7z", ".deb", ".jar", ".aar"}
@@ -60,8 +61,13 @@ def private_path(relative):
 
 
 def excluded_path(relative):
-    return (relative.startswith(EXCLUDED_PREFIXES) or any(part in SKIP_DIRS for part in Path(relative).parts) or
-            any("npm" in part.lower() and "cache" in part.lower() for part in Path(relative).parts))
+    # The preserved license evidence tree intentionally mirrors runtime paths,
+    # including node_modules directories that contain only license/notice text.
+    # Real dependency trees outside the evidence directory remain excluded.
+    evidence = relative.startswith(EVIDENCE_PREFIX)
+    skip_dirs = SKIP_DIRS - {"node_modules"} if evidence else SKIP_DIRS
+    return (relative.startswith(EXCLUDED_PREFIXES) or any(part in skip_dirs for part in Path(relative).parts) or
+            (not evidence and any("npm" in part.lower() and "cache" in part.lower() for part in Path(relative).parts)))
 
 
 def source_paths():
@@ -216,6 +222,8 @@ def self_test():
     assert private_path(".env.production") and not private_path(".env.example")
     assert excluded_path("app/src/main/assets/runtime/rootfs.tgz")
     assert excluded_path("docs/design/references/example.png")
+    assert excluded_path("node_modules/pkg/index.js")
+    assert not excluded_path("docs/open-source/license-texts/runtime/opt/node/lib/node_modules/npm/LICENSE")
     assert path_kind("gradle/wrapper/gradle-wrapper.jar") == "other"
     assert path_kind("app/src/main/res/drawable/icon.png") == "media-manual-review"
     assert path_kind("NOTICE") == "text"
