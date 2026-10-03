@@ -1,0 +1,17 @@
+* text=auto
+gradlew text eol=lf
+*.sh text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+LICENSE text eol=lf
+NOTICE text eol=lf
+*.ttf binary
+*.otf binary
+*.png binary
+*.jpg binary
+*.webp binary
+*.jar binary
+*.tgz binary

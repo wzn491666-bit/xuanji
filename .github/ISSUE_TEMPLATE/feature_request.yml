@@ -1,0 +1,21 @@
+name: 能力与交互建议
+description: 描述具体工作流、天枢能力或 Android 交互诉求
+title: "[Feature] "
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: 当前工作流与遇到的限制
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 期望的可观察结果
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: 上游 / 社区参考
+      description: 可选。注明仓库、Issue、版本；不要上传未经授权的素材

@@ -1,0 +1,1750 @@
+{
+    "format": "xuanji-resolved-gradle-dependencies-v1",
+    "configurations": [
+        "releaseRuntimeClasspath",
+        "debugRuntimeClasspath"
+    ],
+    "components": [
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.activity",
+            "name": "activity-compose",
+            "version": "1.13.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "activity-compose-1.13.0.aar",
+            "sha256": "2b5da3033d4924e833868e140c3edfc0c03208710b6b9fb2c9d9a47560ba55fa"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.activity",
+            "name": "activity-ktx",
+            "version": "1.13.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "activity-ktx-1.13.0.aar",
+            "sha256": "b5541dc5f74e35389f1e9fdca8b5770c49d2c1360de16f398ce5c1e07a003244"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.activity",
+            "name": "activity",
+            "version": "1.13.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "activity-1.13.0.aar",
+            "sha256": "bd4f19a5f00effed0eecad0a310b1f2169b9fc66236a3ba743a222eb77747ee1"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.annotation",
+            "name": "annotation-experimental",
+            "version": "1.4.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "annotation-experimental-1.4.1.aar",
+            "sha256": "6bd4c7c7476f8260cd3bdbb81183583e93fc9f790c27dea7dc314181cbf87aa0"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.annotation",
+            "name": "annotation-jvm",
+            "version": "1.10.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "annotation-jvm-1.10.0.jar",
+            "sha256": "ddd072ddbb553178e205517ce777b2f05aa9e412982d9ecb4eedc74f1212f697"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.arch.core",
+            "name": "core-common",
+            "version": "2.2.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "core-common-2.2.0.jar",
+            "sha256": "65308a06b1c00ee186cb9e19321383f043b993813f1522c47f4a3e3303bdba41"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.arch.core",
+            "name": "core-runtime",
+            "version": "2.2.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "core-runtime-2.2.0.aar",
+            "sha256": "a1be5e0caa2b07623862af6ae21b3ab0718123245184d0e30dea81b53f990a47"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.autofill",
+            "name": "autofill",
+            "version": "1.0.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "autofill-1.0.0.aar",
+            "sha256": "c9468f56e05006ea151a426c54957cd0799b8b83a579d2846dd22061f33e5ecd"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.collection",
+            "name": "collection-jvm",
+            "version": "1.5.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "collection-jvm-1.5.0.jar",
+            "sha256": "70b35924e4babcdffa37d0e575ee039c56a2d97123342624c48b603233704341"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.collection",
+            "name": "collection-ktx",
+            "version": "1.5.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "collection-ktx-1.5.0.jar",
+            "sha256": "939b4a8697640e77d83e4e8b4c4a9d18f8130198c5961194af8dd9db9dc7c353"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.animation",
+            "name": "animation-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "animation.aar",
+            "sha256": "4a619ca869b9724e9cf6127ead53d8fb7dd8601a931c4006b15caf5bb3bf19f8"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.animation",
+            "name": "animation-core-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "animation-core.aar",
+            "sha256": "29e26959b2c5645c53a42aa8302570bf8cc3644755d6ca97bf1028d08a665b97"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.foundation",
+            "name": "foundation-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "foundation.aar",
+            "sha256": "444749ea7b5a563e530504b9035c87e47ed0fb62b9f7ba00e90af8aa81e6bfb8"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.foundation",
+            "name": "foundation-layout-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "foundation-layout.aar",
+            "sha256": "274370a88621e001417e76c2d862ffad61ebc8ca2d9f151c7b60dd02d65ebe51"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.material3",
+            "name": "material3-android",
+            "version": "1.4.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "material3.aar",
+            "sha256": "3a37e8b36df3822fe1e6059f0f9fafda8800388860477624ac1b9422c418a36e"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.material",
+            "name": "material-icons-core-android",
+            "version": "1.7.8",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "material-icons-core-release.aar",
+            "sha256": "332c06b25e662cc417fb087e76b8faa5cb249f4992ffa3360084a3d4ab882284"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.material",
+            "name": "material-icons-extended-android",
+            "version": "1.7.8",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "material-icons-extended-release.aar",
+            "sha256": "64e86269f1106848981dd76f0046f81b46f3bd92efb22645de8fd044c0402b61"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.material",
+            "name": "material-ripple-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "material-ripple.aar",
+            "sha256": "795d8742165875ee96383ca64ff4cd8bc12b83efb0918f68472e7c2f9d5826df"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.runtime",
+            "name": "runtime-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "runtime.aar",
+            "sha256": "1701a61d06d2f6144f2cd8b015abbc5ad6952eacb70c24c208cdfd2bb188dde7"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.runtime",
+            "name": "runtime-annotation-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "runtime-annotation.aar",
+            "sha256": "071d6200f5f34ffb5ce69cc19ee8db577c188832bb472779213d4633eca26565"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.runtime",
+            "name": "runtime-retain-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "runtime-retain.aar",
+            "sha256": "6e32111eed0f67ef2ae70c2d9c83cb6bfb54095fe2fb2fdc800febd14d0d7a61"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.runtime",
+            "name": "runtime-saveable-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "runtime-saveable.aar",
+            "sha256": "0c83d47820fbc8ffb6e3e49311ccd4755676d6f94bb8c6d8564ab4c799df8779"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.ui",
+            "name": "ui-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "ui.aar",
+            "sha256": "3f1ae17e237d9dc0a2a0f42cb04b85b8de6e12f67adc5f5c12173fe31e501cb2"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.ui",
+            "name": "ui-geometry-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "ui-geometry.aar",
+            "sha256": "09a23c76f5d52ea5ec61d4a78d4876940f0f033c975e5c604246f89a63532754"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.ui",
+            "name": "ui-graphics-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "ui-graphics.aar",
+            "sha256": "1e6451f05ad569e306e7022b3c41d16aa75080bb2c99b59c4d67e7dbf6f428e7"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.ui",
+            "name": "ui-text-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "ui-text.aar",
+            "sha256": "e710a5776966537df09a2e5c4ca1dacc14ca11d7b20a6af16c0e992ddd3aecd3"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.ui",
+            "name": "ui-tooling-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "ui-tooling.aar",
+            "sha256": "49584245c4dcba25b0edad0b770c193a6e8fe79da15c2f5be653db5552969bc5"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.ui",
+            "name": "ui-tooling-data-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "ui-tooling-data.aar",
+            "sha256": "2b664eb063aedc3c07af2bdd912c8afa097abe323d4b43ee7f03657cd1ca5d22"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.ui",
+            "name": "ui-tooling-preview-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "ui-tooling-preview.aar",
+            "sha256": "e5d8e697fcfda732734e01168296682682d31e085b77ec8245e72badbc673686"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.ui",
+            "name": "ui-unit-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "ui-unit.aar",
+            "sha256": "97d2bf062395d981435bc8d571b1d5d75587a7f26f3444671b2287f233e18ae7"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.compose.ui",
+            "name": "ui-util-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "ui-util.aar",
+            "sha256": "cd47f06626c19a06086e16823a32e49e0a0c7d903451668da2f777d063507aa5"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.concurrent",
+            "name": "concurrent-futures",
+            "version": "1.1.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "concurrent-futures-1.1.0.jar",
+            "sha256": "0ce067c514a0d1049d1bebdf709e344ed3266fe9744275682937cdcb13334e9e"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.core",
+            "name": "core-ktx",
+            "version": "1.19.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "core-ktx-1.19.1.aar",
+            "sha256": "9a3e2919e64026ad18b42bf9931e8fea90a6a70e95e13a26519841e926fe5913"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.core",
+            "name": "core-viewtree",
+            "version": "1.0.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "core-viewtree-1.0.0.aar",
+            "sha256": "dc1b678d58ebcf2bfa1587be68ff826694ce3d221251b9ef30d4d4b36297e6de"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.core",
+            "name": "core",
+            "version": "1.19.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "core-1.19.1.aar",
+            "sha256": "08108ea780205bd54603088a62a6dd5378f63bd25542674be24cd4cdb8191a09"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.core",
+            "name": "core",
+            "version": "1.19.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "core-1.19.1.aar",
+            "sha256": "08108ea780205bd54603088a62a6dd5378f63bd25542674be24cd4cdb8191a09"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.customview",
+            "name": "customview-poolingcontainer",
+            "version": "1.0.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "customview-poolingcontainer-1.0.0.aar",
+            "sha256": "3584102fc49bf399c56e3b7be4bfe12000c46112320cd8cf85cc0a8f93f3e752"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.emoji2",
+            "name": "emoji2",
+            "version": "1.4.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "emoji2-1.4.0.aar",
+            "sha256": "433febd3434a45667176c76a64f3f205ca6335a6b544c5b5d57f25a38a375242"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.graphics",
+            "name": "graphics-path",
+            "version": "1.0.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "graphics-path-1.0.1.aar",
+            "sha256": "8ca4032b6d79b351f0b59ad4b580eddbb9423e1652f7c958830687f1eee2ec03"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.interpolator",
+            "name": "interpolator",
+            "version": "1.0.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "interpolator-1.0.0.aar",
+            "sha256": "33193135a64fe21fa2c35eec6688f1a76e512606c0fc83dc1b689e37add7732a"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-common-java8",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "lifecycle-common-java8-2.11.0.jar",
+            "sha256": "895e71679cd319db8140664d650af6695b0530f5896be9b8ecccd24cc4f6674f"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-common-jvm",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "lifecycle-common-jvm-2.11.0.jar",
+            "sha256": "e6a66e67b9f63a0fb6344f165c1d872376e5fe6d235bffb138af45122cf452a9"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-livedata-core",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-livedata-core-2.11.0.aar",
+            "sha256": "39b26ef1e081fc88d7054ff1a63d0a5d71876373c33a711ab789c8228d025ad1"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-process",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-process-2.11.0.aar",
+            "sha256": "9743f0c7baf27d34497b7e9a1cd497d8260251b03124507963abfaad66c3f552"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-runtime-android",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-runtime.aar",
+            "sha256": "8711865f8d3603bc05decc03bb42aab2faa8d8bc55b3b12a0a8e516b562b60ca"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-runtime-compose-android",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-runtime-compose.aar",
+            "sha256": "7b31489e6e162143c481f14e1ae5a4dc089f8ec58e65976a0502b910c641987f"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-runtime-ktx-android",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-runtime-ktx.aar",
+            "sha256": "1fead96607f8b4ebd2bc5840c6fcf08b09fc47ceb1665e4b381dce80b19f32a0"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-viewmodel-android",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-viewmodel.aar",
+            "sha256": "509aa5c0711e61a1571024b4f8431dc9aa20960d23cbadb01f21a33fd864352a"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-viewmodel-compose-android",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-viewmodel-compose.aar",
+            "sha256": "2bafd402807bd4af05c06cf58c48cbdad09521e2145273faae90908b7712f689"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-viewmodel-ktx",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-viewmodel-ktx-2.11.0.aar",
+            "sha256": "230af6c866076d320d92c22c7c44bb52afca97f6892ddf987e2906ef2919998f"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-viewmodel-savedstate-android",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-viewmodel-savedstate.aar",
+            "sha256": "1761707c1ddee002bd97e1a0889a5016f7cd6bd8e0b6b069bcba8b2523d63723"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.navigation",
+            "name": "navigation-common-android",
+            "version": "2.10.2",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "navigation-common.aar",
+            "sha256": "b231c0345d98d62de551ea5ffd94a955910ac2bb3cc61ae94fca4219e7c323f2"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.navigation",
+            "name": "navigation-compose-android",
+            "version": "2.10.2",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "navigation-compose.aar",
+            "sha256": "659fd5bb30acf15f52c5a21475cf85618af603aca78660110e514b2df7df3110"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.navigation",
+            "name": "navigation-runtime-android",
+            "version": "2.10.2",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "navigation-runtime.aar",
+            "sha256": "91a240425d3ea6702e5d8eabef52d23155e5856f6528ea33f06a5f60e3ef4b4f"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.navigationevent",
+            "name": "navigationevent-android",
+            "version": "1.1.2",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "navigationevent.aar",
+            "sha256": "40a357103ab703762bf434f424a8486be18652b4aa25110f0d635a4cef5dcd63"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.navigationevent",
+            "name": "navigationevent-compose-android",
+            "version": "1.1.2",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "navigationevent-compose.aar",
+            "sha256": "ac9773dc9076d3b035ccf5494316d78a5f9abc18a8fa73fb211f92957286e1aa"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.profileinstaller",
+            "name": "profileinstaller",
+            "version": "1.4.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "profileinstaller-1.4.0.aar",
+            "sha256": "d502141fcce902430f62b674c32aecd0f75262e7ee2cd15c74adb617cd13130a"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.savedstate",
+            "name": "savedstate-android",
+            "version": "1.5.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "savedstate.aar",
+            "sha256": "c191b2b0d3ed2f765743e634f213c0e8150825547810789fc13487332bfc9cd3"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.savedstate",
+            "name": "savedstate-compose-android",
+            "version": "1.5.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "savedstate-compose.aar",
+            "sha256": "01682c0de6796d31f9c7863bb18e65443e512e4dc95a13cc8c3d0d4931c2c10b"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.savedstate",
+            "name": "savedstate-ktx",
+            "version": "1.5.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "savedstate-ktx-1.5.0.aar",
+            "sha256": "1de99f31e90d55828e1f00f856274410e6e3e997605a40d478e7065c38b3252e"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.startup",
+            "name": "startup-runtime",
+            "version": "1.2.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "startup-runtime-1.2.0.aar",
+            "sha256": "f51d361d17b30b09cfb9e2aebf301d113f99437cbf462a066092795fb60eddd2"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.tracing",
+            "name": "tracing",
+            "version": "1.2.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "tracing-1.2.0.aar",
+            "sha256": "6faa90390d1fdbf0adb9a99bf99de67b94c6c6f35aea9510593a9d17973736a2"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.versionedparcelable",
+            "name": "versionedparcelable",
+            "version": "1.1.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "versionedparcelable-1.1.1.aar",
+            "sha256": "57e8d93260d18d5b9007c9eed3c64ad159de90c8609ebfc74a347cbd514535a4"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.window",
+            "name": "window-core-android",
+            "version": "1.5.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "window-core.aar",
+            "sha256": "d0d50db0756194a6d49a66ad8dafd17b24b4c5fbd8379375056e2eb9bdfeaf22"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "androidx.window",
+            "name": "window",
+            "version": "1.5.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "window-1.5.0.aar",
+            "sha256": "5de2d48aa578402f46deb5294a955cee62f0c7d8c1840ef626fc7afb8abe22f9"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "com.google.guava",
+            "name": "listenablefuture",
+            "version": "1.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "listenablefuture-1.0.jar",
+            "sha256": "e4ad7607e5c0477c6f890ef26a49cb8d1bb4dffb650bab4502afee64644e3069"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "com.squareup.okhttp3",
+            "name": "okhttp-android",
+            "version": "5.5.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "okhttp.aar",
+            "sha256": "6c7fd12f092e64ca2eae0b8a8023900c0d7ffec57888cf8abc8085c6f42e1dcc"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "com.squareup.okhttp3",
+            "name": "okhttp-sse",
+            "version": "5.5.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "okhttp-sse-5.5.0.jar",
+            "sha256": "0d0142543d99eb3f95e66bb17e0facb8f143596d30a4203ef0ed904c29fe6694"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "com.squareup.okio",
+            "name": "okio-jvm",
+            "version": "3.18.1",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "okio-jvm-3.18.1.jar",
+            "sha256": "b97b640557a650d15411f2be29aef558c4e422a83653cb18ba494311dbed18be"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "commons-codec",
+            "name": "commons-codec",
+            "version": "1.19.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "commons-codec-1.19.0.jar",
+            "sha256": "5c3881e4f556855e9c532927ee0c9dfde94cc66760d5805c031a59887070af5f"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "commons-io",
+            "name": "commons-io",
+            "version": "2.20.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "commons-io-2.20.0.jar",
+            "sha256": "df90bba0fe3cb586b7f164e78fe8f8f4da3f2dd5c27fa645f888100ccc25dd72"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "dev.rikka.shizuku",
+            "name": "aidl",
+            "version": "13.1.5",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "aidl-13.1.5.aar",
+            "sha256": "33fe7191cdd69fcb66d649264f3b0c47acb2f3d6343afc05b98dbbff6f221963"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "dev.rikka.shizuku",
+            "name": "api",
+            "version": "13.1.5",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "api-13.1.5.aar",
+            "sha256": "4def9bde498ef8626614c2fc5db9af4749c86f16f6c33e3f5658d35e70bab59b"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "dev.rikka.shizuku",
+            "name": "provider",
+            "version": "13.1.5",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "provider-13.1.5.aar",
+            "sha256": "b0f18cd9812464ec171c53cac93a819fe411718a3965c311f01eb4de265381b3"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "dev.rikka.shizuku",
+            "name": "shared",
+            "version": "13.1.5",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "shared-13.1.5.aar",
+            "sha256": "4659642c9339be0a26e9c65bb8648f7ad6d8f4a465f557993ccbc78802381635"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "org.apache.commons",
+            "name": "commons-compress",
+            "version": "1.28.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "commons-compress-1.28.0.jar",
+            "sha256": "e1522945218456f3649a39bc4afd70ce4bd466221519dba7d378f2141a4642ca"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "org.apache.commons",
+            "name": "commons-lang3",
+            "version": "3.18.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "commons-lang3-3.18.0.jar",
+            "sha256": "4eeeae8d20c078abb64b015ec158add383ac581571cddc45c68f0c9ae0230720"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "org.commonmark",
+            "name": "commonmark-ext-gfm-strikethrough",
+            "version": "0.30.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "commonmark-ext-gfm-strikethrough-0.30.0.jar",
+            "sha256": "2fed2064af3114c9fdfe233f9987682af6b1da073522879520fdb8593b65c995"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "org.commonmark",
+            "name": "commonmark-ext-gfm-tables",
+            "version": "0.30.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "commonmark-ext-gfm-tables-0.30.0.jar",
+            "sha256": "5e28b48e66f7697bee4dfeb4c8f8f08a84a2827d91b53bbd9bd5445e82d14bda"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "org.commonmark",
+            "name": "commonmark",
+            "version": "0.30.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "commonmark-0.30.0.jar",
+            "sha256": "090f0a758ac2f4f51aa86dff9dff0fdf7403666d0efd29f59886dc8e8b1eac53"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-stdlib",
+            "version": "2.4.20",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "kotlin-stdlib-2.4.20.jar",
+            "sha256": "2226de463d309d4a5500a481320b3dea515a6981dcae1def531fbc158884e25f"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "org.jetbrains.kotlinx",
+            "name": "kotlinx-coroutines-android",
+            "version": "1.11.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "kotlinx-coroutines-android-1.11.0.jar",
+            "sha256": "c2cb206d27017c7d1bf5ff179787397543d13748dbabb0d7237e1585e0b29044"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "org.jetbrains.kotlinx",
+            "name": "kotlinx-coroutines-core-jvm",
+            "version": "1.11.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "kotlinx-coroutines-core-jvm-1.11.0.jar",
+            "sha256": "d1d75aa01dffbb4d1c520e67e4c4e7f5f6174718e7cb4632412503f2f0e604fa"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "org.jetbrains.kotlinx",
+            "name": "kotlinx-serialization-core-jvm",
+            "version": "1.11.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "kotlinx-serialization-core-jvm-1.11.0.jar",
+            "sha256": "f4a801c647d4351327cd9e1ac4113e2be9ea37a64ab0abae269c25a52e28f35d"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "org.jetbrains.kotlinx",
+            "name": "kotlinx-serialization-json-jvm",
+            "version": "1.11.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "kotlinx-serialization-json-jvm-1.11.0.jar",
+            "sha256": "563a25b4eb5c9128ae9c2479f3d1a5c44dcd176112b91cf03682e906eba5c935"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "org.jetbrains",
+            "name": "annotations",
+            "version": "23.0.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "annotations-23.0.0.jar",
+            "sha256": "7b0f19724082cbfcbc66e5abea2b9bc92cf08a1ea11e191933ed43801eb3cd05"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "org.jsoup",
+            "name": "jsoup",
+            "version": "1.21.2",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "jsoup-1.21.2.jar",
+            "sha256": "f05496e255734759f0d4b5632da7b24f81313147c78c69e90ad045d096191344"
+        },
+        {
+            "configuration": "debugRuntimeClasspath",
+            "group": "org.jspecify",
+            "name": "jspecify",
+            "version": "1.0.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "jspecify-1.0.0.jar",
+            "sha256": "1fad6e6be7557781e4d33729d49ae1cdc8fdda6fe477bb0cc68ce351eafdfbab"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.activity",
+            "name": "activity-compose",
+            "version": "1.13.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "activity-compose-1.13.0.aar",
+            "sha256": "2b5da3033d4924e833868e140c3edfc0c03208710b6b9fb2c9d9a47560ba55fa"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.activity",
+            "name": "activity-ktx",
+            "version": "1.13.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "activity-ktx-1.13.0.aar",
+            "sha256": "b5541dc5f74e35389f1e9fdca8b5770c49d2c1360de16f398ce5c1e07a003244"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.activity",
+            "name": "activity",
+            "version": "1.13.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "activity-1.13.0.aar",
+            "sha256": "bd4f19a5f00effed0eecad0a310b1f2169b9fc66236a3ba743a222eb77747ee1"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.annotation",
+            "name": "annotation-experimental",
+            "version": "1.4.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "annotation-experimental-1.4.1.aar",
+            "sha256": "6bd4c7c7476f8260cd3bdbb81183583e93fc9f790c27dea7dc314181cbf87aa0"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.annotation",
+            "name": "annotation-jvm",
+            "version": "1.10.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "annotation-jvm-1.10.0.jar",
+            "sha256": "ddd072ddbb553178e205517ce777b2f05aa9e412982d9ecb4eedc74f1212f697"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.arch.core",
+            "name": "core-common",
+            "version": "2.2.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "core-common-2.2.0.jar",
+            "sha256": "65308a06b1c00ee186cb9e19321383f043b993813f1522c47f4a3e3303bdba41"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.arch.core",
+            "name": "core-runtime",
+            "version": "2.2.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "core-runtime-2.2.0.aar",
+            "sha256": "a1be5e0caa2b07623862af6ae21b3ab0718123245184d0e30dea81b53f990a47"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.autofill",
+            "name": "autofill",
+            "version": "1.0.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "autofill-1.0.0.aar",
+            "sha256": "c9468f56e05006ea151a426c54957cd0799b8b83a579d2846dd22061f33e5ecd"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.collection",
+            "name": "collection-jvm",
+            "version": "1.5.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "collection-jvm-1.5.0.jar",
+            "sha256": "70b35924e4babcdffa37d0e575ee039c56a2d97123342624c48b603233704341"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.collection",
+            "name": "collection-ktx",
+            "version": "1.5.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "collection-ktx-1.5.0.jar",
+            "sha256": "939b4a8697640e77d83e4e8b4c4a9d18f8130198c5961194af8dd9db9dc7c353"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.animation",
+            "name": "animation-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "animation.aar",
+            "sha256": "4a619ca869b9724e9cf6127ead53d8fb7dd8601a931c4006b15caf5bb3bf19f8"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.animation",
+            "name": "animation-core-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "animation-core.aar",
+            "sha256": "29e26959b2c5645c53a42aa8302570bf8cc3644755d6ca97bf1028d08a665b97"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.foundation",
+            "name": "foundation-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "foundation.aar",
+            "sha256": "444749ea7b5a563e530504b9035c87e47ed0fb62b9f7ba00e90af8aa81e6bfb8"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.foundation",
+            "name": "foundation-layout-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "foundation-layout.aar",
+            "sha256": "274370a88621e001417e76c2d862ffad61ebc8ca2d9f151c7b60dd02d65ebe51"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.material3",
+            "name": "material3-android",
+            "version": "1.4.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "material3.aar",
+            "sha256": "3a37e8b36df3822fe1e6059f0f9fafda8800388860477624ac1b9422c418a36e"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.material",
+            "name": "material-icons-core-android",
+            "version": "1.7.8",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "material-icons-core-release.aar",
+            "sha256": "332c06b25e662cc417fb087e76b8faa5cb249f4992ffa3360084a3d4ab882284"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.material",
+            "name": "material-icons-extended-android",
+            "version": "1.7.8",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "material-icons-extended-release.aar",
+            "sha256": "64e86269f1106848981dd76f0046f81b46f3bd92efb22645de8fd044c0402b61"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.material",
+            "name": "material-ripple-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "material-ripple.aar",
+            "sha256": "795d8742165875ee96383ca64ff4cd8bc12b83efb0918f68472e7c2f9d5826df"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.runtime",
+            "name": "runtime-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "runtime.aar",
+            "sha256": "1701a61d06d2f6144f2cd8b015abbc5ad6952eacb70c24c208cdfd2bb188dde7"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.runtime",
+            "name": "runtime-annotation-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "runtime-annotation.aar",
+            "sha256": "071d6200f5f34ffb5ce69cc19ee8db577c188832bb472779213d4633eca26565"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.runtime",
+            "name": "runtime-retain-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "runtime-retain.aar",
+            "sha256": "6e32111eed0f67ef2ae70c2d9c83cb6bfb54095fe2fb2fdc800febd14d0d7a61"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.runtime",
+            "name": "runtime-saveable-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "runtime-saveable.aar",
+            "sha256": "0c83d47820fbc8ffb6e3e49311ccd4755676d6f94bb8c6d8564ab4c799df8779"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.ui",
+            "name": "ui-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "ui.aar",
+            "sha256": "3f1ae17e237d9dc0a2a0f42cb04b85b8de6e12f67adc5f5c12173fe31e501cb2"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.ui",
+            "name": "ui-geometry-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "ui-geometry.aar",
+            "sha256": "09a23c76f5d52ea5ec61d4a78d4876940f0f033c975e5c604246f89a63532754"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.ui",
+            "name": "ui-graphics-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "ui-graphics.aar",
+            "sha256": "1e6451f05ad569e306e7022b3c41d16aa75080bb2c99b59c4d67e7dbf6f428e7"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.ui",
+            "name": "ui-text-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "ui-text.aar",
+            "sha256": "e710a5776966537df09a2e5c4ca1dacc14ca11d7b20a6af16c0e992ddd3aecd3"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.ui",
+            "name": "ui-tooling-preview-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "ui-tooling-preview.aar",
+            "sha256": "e5d8e697fcfda732734e01168296682682d31e085b77ec8245e72badbc673686"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.ui",
+            "name": "ui-unit-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "ui-unit.aar",
+            "sha256": "97d2bf062395d981435bc8d571b1d5d75587a7f26f3444671b2287f233e18ae7"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.compose.ui",
+            "name": "ui-util-android",
+            "version": "1.12.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "ui-util.aar",
+            "sha256": "cd47f06626c19a06086e16823a32e49e0a0c7d903451668da2f777d063507aa5"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.concurrent",
+            "name": "concurrent-futures",
+            "version": "1.1.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "concurrent-futures-1.1.0.jar",
+            "sha256": "0ce067c514a0d1049d1bebdf709e344ed3266fe9744275682937cdcb13334e9e"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.core",
+            "name": "core-ktx",
+            "version": "1.19.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "core-ktx-1.19.1.aar",
+            "sha256": "9a3e2919e64026ad18b42bf9931e8fea90a6a70e95e13a26519841e926fe5913"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.core",
+            "name": "core-viewtree",
+            "version": "1.0.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "core-viewtree-1.0.0.aar",
+            "sha256": "dc1b678d58ebcf2bfa1587be68ff826694ce3d221251b9ef30d4d4b36297e6de"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.core",
+            "name": "core",
+            "version": "1.19.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "core-1.19.1.aar",
+            "sha256": "08108ea780205bd54603088a62a6dd5378f63bd25542674be24cd4cdb8191a09"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.core",
+            "name": "core",
+            "version": "1.19.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "core-1.19.1.aar",
+            "sha256": "08108ea780205bd54603088a62a6dd5378f63bd25542674be24cd4cdb8191a09"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.customview",
+            "name": "customview-poolingcontainer",
+            "version": "1.0.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "customview-poolingcontainer-1.0.0.aar",
+            "sha256": "3584102fc49bf399c56e3b7be4bfe12000c46112320cd8cf85cc0a8f93f3e752"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.emoji2",
+            "name": "emoji2",
+            "version": "1.4.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "emoji2-1.4.0.aar",
+            "sha256": "433febd3434a45667176c76a64f3f205ca6335a6b544c5b5d57f25a38a375242"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.graphics",
+            "name": "graphics-path",
+            "version": "1.0.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "graphics-path-1.0.1.aar",
+            "sha256": "8ca4032b6d79b351f0b59ad4b580eddbb9423e1652f7c958830687f1eee2ec03"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.interpolator",
+            "name": "interpolator",
+            "version": "1.0.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "interpolator-1.0.0.aar",
+            "sha256": "33193135a64fe21fa2c35eec6688f1a76e512606c0fc83dc1b689e37add7732a"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-common-java8",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "lifecycle-common-java8-2.11.0.jar",
+            "sha256": "895e71679cd319db8140664d650af6695b0530f5896be9b8ecccd24cc4f6674f"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-common-jvm",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "lifecycle-common-jvm-2.11.0.jar",
+            "sha256": "e6a66e67b9f63a0fb6344f165c1d872376e5fe6d235bffb138af45122cf452a9"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-livedata-core",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-livedata-core-2.11.0.aar",
+            "sha256": "39b26ef1e081fc88d7054ff1a63d0a5d71876373c33a711ab789c8228d025ad1"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-process",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-process-2.11.0.aar",
+            "sha256": "9743f0c7baf27d34497b7e9a1cd497d8260251b03124507963abfaad66c3f552"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-runtime-android",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-runtime.aar",
+            "sha256": "8711865f8d3603bc05decc03bb42aab2faa8d8bc55b3b12a0a8e516b562b60ca"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-runtime-compose-android",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-runtime-compose.aar",
+            "sha256": "7b31489e6e162143c481f14e1ae5a4dc089f8ec58e65976a0502b910c641987f"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-runtime-ktx-android",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-runtime-ktx.aar",
+            "sha256": "1fead96607f8b4ebd2bc5840c6fcf08b09fc47ceb1665e4b381dce80b19f32a0"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-viewmodel-android",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-viewmodel.aar",
+            "sha256": "509aa5c0711e61a1571024b4f8431dc9aa20960d23cbadb01f21a33fd864352a"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-viewmodel-compose-android",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-viewmodel-compose.aar",
+            "sha256": "2bafd402807bd4af05c06cf58c48cbdad09521e2145273faae90908b7712f689"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-viewmodel-ktx",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-viewmodel-ktx-2.11.0.aar",
+            "sha256": "230af6c866076d320d92c22c7c44bb52afca97f6892ddf987e2906ef2919998f"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.lifecycle",
+            "name": "lifecycle-viewmodel-savedstate-android",
+            "version": "2.11.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "lifecycle-viewmodel-savedstate.aar",
+            "sha256": "1761707c1ddee002bd97e1a0889a5016f7cd6bd8e0b6b069bcba8b2523d63723"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.navigation",
+            "name": "navigation-common-android",
+            "version": "2.10.2",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "navigation-common.aar",
+            "sha256": "b231c0345d98d62de551ea5ffd94a955910ac2bb3cc61ae94fca4219e7c323f2"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.navigation",
+            "name": "navigation-compose-android",
+            "version": "2.10.2",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "navigation-compose.aar",
+            "sha256": "659fd5bb30acf15f52c5a21475cf85618af603aca78660110e514b2df7df3110"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.navigation",
+            "name": "navigation-runtime-android",
+            "version": "2.10.2",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "navigation-runtime.aar",
+            "sha256": "91a240425d3ea6702e5d8eabef52d23155e5856f6528ea33f06a5f60e3ef4b4f"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.navigationevent",
+            "name": "navigationevent-android",
+            "version": "1.1.2",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "navigationevent.aar",
+            "sha256": "40a357103ab703762bf434f424a8486be18652b4aa25110f0d635a4cef5dcd63"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.navigationevent",
+            "name": "navigationevent-compose-android",
+            "version": "1.1.2",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "navigationevent-compose.aar",
+            "sha256": "ac9773dc9076d3b035ccf5494316d78a5f9abc18a8fa73fb211f92957286e1aa"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.profileinstaller",
+            "name": "profileinstaller",
+            "version": "1.4.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "profileinstaller-1.4.0.aar",
+            "sha256": "d502141fcce902430f62b674c32aecd0f75262e7ee2cd15c74adb617cd13130a"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.savedstate",
+            "name": "savedstate-android",
+            "version": "1.5.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "savedstate.aar",
+            "sha256": "c191b2b0d3ed2f765743e634f213c0e8150825547810789fc13487332bfc9cd3"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.savedstate",
+            "name": "savedstate-compose-android",
+            "version": "1.5.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "savedstate-compose.aar",
+            "sha256": "01682c0de6796d31f9c7863bb18e65443e512e4dc95a13cc8c3d0d4931c2c10b"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.savedstate",
+            "name": "savedstate-ktx",
+            "version": "1.5.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "savedstate-ktx-1.5.0.aar",
+            "sha256": "1de99f31e90d55828e1f00f856274410e6e3e997605a40d478e7065c38b3252e"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.startup",
+            "name": "startup-runtime",
+            "version": "1.2.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "startup-runtime-1.2.0.aar",
+            "sha256": "f51d361d17b30b09cfb9e2aebf301d113f99437cbf462a066092795fb60eddd2"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.tracing",
+            "name": "tracing",
+            "version": "1.2.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "tracing-1.2.0.aar",
+            "sha256": "6faa90390d1fdbf0adb9a99bf99de67b94c6c6f35aea9510593a9d17973736a2"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.versionedparcelable",
+            "name": "versionedparcelable",
+            "version": "1.1.1",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "versionedparcelable-1.1.1.aar",
+            "sha256": "57e8d93260d18d5b9007c9eed3c64ad159de90c8609ebfc74a347cbd514535a4"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.window",
+            "name": "window-core-android",
+            "version": "1.5.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "window-core.aar",
+            "sha256": "d0d50db0756194a6d49a66ad8dafd17b24b4c5fbd8379375056e2eb9bdfeaf22"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "androidx.window",
+            "name": "window",
+            "version": "1.5.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "window-1.5.0.aar",
+            "sha256": "5de2d48aa578402f46deb5294a955cee62f0c7d8c1840ef626fc7afb8abe22f9"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "com.google.guava",
+            "name": "listenablefuture",
+            "version": "1.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "listenablefuture-1.0.jar",
+            "sha256": "e4ad7607e5c0477c6f890ef26a49cb8d1bb4dffb650bab4502afee64644e3069"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "com.squareup.okhttp3",
+            "name": "okhttp-android",
+            "version": "5.5.0",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "okhttp.aar",
+            "sha256": "6c7fd12f092e64ca2eae0b8a8023900c0d7ffec57888cf8abc8085c6f42e1dcc"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "com.squareup.okhttp3",
+            "name": "okhttp-sse",
+            "version": "5.5.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "okhttp-sse-5.5.0.jar",
+            "sha256": "0d0142543d99eb3f95e66bb17e0facb8f143596d30a4203ef0ed904c29fe6694"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "com.squareup.okio",
+            "name": "okio-jvm",
+            "version": "3.18.1",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "okio-jvm-3.18.1.jar",
+            "sha256": "b97b640557a650d15411f2be29aef558c4e422a83653cb18ba494311dbed18be"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "commons-codec",
+            "name": "commons-codec",
+            "version": "1.19.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "commons-codec-1.19.0.jar",
+            "sha256": "5c3881e4f556855e9c532927ee0c9dfde94cc66760d5805c031a59887070af5f"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "commons-io",
+            "name": "commons-io",
+            "version": "2.20.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "commons-io-2.20.0.jar",
+            "sha256": "df90bba0fe3cb586b7f164e78fe8f8f4da3f2dd5c27fa645f888100ccc25dd72"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "dev.rikka.shizuku",
+            "name": "aidl",
+            "version": "13.1.5",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "aidl-13.1.5.aar",
+            "sha256": "33fe7191cdd69fcb66d649264f3b0c47acb2f3d6343afc05b98dbbff6f221963"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "dev.rikka.shizuku",
+            "name": "api",
+            "version": "13.1.5",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "api-13.1.5.aar",
+            "sha256": "4def9bde498ef8626614c2fc5db9af4749c86f16f6c33e3f5658d35e70bab59b"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "dev.rikka.shizuku",
+            "name": "provider",
+            "version": "13.1.5",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "provider-13.1.5.aar",
+            "sha256": "b0f18cd9812464ec171c53cac93a819fe411718a3965c311f01eb4de265381b3"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "dev.rikka.shizuku",
+            "name": "shared",
+            "version": "13.1.5",
+            "classifier": null,
+            "type": "aar",
+            "artifactFile": "shared-13.1.5.aar",
+            "sha256": "4659642c9339be0a26e9c65bb8648f7ad6d8f4a465f557993ccbc78802381635"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "org.apache.commons",
+            "name": "commons-compress",
+            "version": "1.28.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "commons-compress-1.28.0.jar",
+            "sha256": "e1522945218456f3649a39bc4afd70ce4bd466221519dba7d378f2141a4642ca"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "org.apache.commons",
+            "name": "commons-lang3",
+            "version": "3.18.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "commons-lang3-3.18.0.jar",
+            "sha256": "4eeeae8d20c078abb64b015ec158add383ac581571cddc45c68f0c9ae0230720"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "org.commonmark",
+            "name": "commonmark-ext-gfm-strikethrough",
+            "version": "0.30.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "commonmark-ext-gfm-strikethrough-0.30.0.jar",
+            "sha256": "2fed2064af3114c9fdfe233f9987682af6b1da073522879520fdb8593b65c995"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "org.commonmark",
+            "name": "commonmark-ext-gfm-tables",
+            "version": "0.30.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "commonmark-ext-gfm-tables-0.30.0.jar",
+            "sha256": "5e28b48e66f7697bee4dfeb4c8f8f08a84a2827d91b53bbd9bd5445e82d14bda"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "org.commonmark",
+            "name": "commonmark",
+            "version": "0.30.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "commonmark-0.30.0.jar",
+            "sha256": "090f0a758ac2f4f51aa86dff9dff0fdf7403666d0efd29f59886dc8e8b1eac53"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-stdlib",
+            "version": "2.4.20",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "kotlin-stdlib-2.4.20.jar",
+            "sha256": "2226de463d309d4a5500a481320b3dea515a6981dcae1def531fbc158884e25f"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "org.jetbrains.kotlinx",
+            "name": "kotlinx-coroutines-android",
+            "version": "1.11.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "kotlinx-coroutines-android-1.11.0.jar",
+            "sha256": "c2cb206d27017c7d1bf5ff179787397543d13748dbabb0d7237e1585e0b29044"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "org.jetbrains.kotlinx",
+            "name": "kotlinx-coroutines-core-jvm",
+            "version": "1.11.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "kotlinx-coroutines-core-jvm-1.11.0.jar",
+            "sha256": "d1d75aa01dffbb4d1c520e67e4c4e7f5f6174718e7cb4632412503f2f0e604fa"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "org.jetbrains.kotlinx",
+            "name": "kotlinx-serialization-core-jvm",
+            "version": "1.11.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "kotlinx-serialization-core-jvm-1.11.0.jar",
+            "sha256": "f4a801c647d4351327cd9e1ac4113e2be9ea37a64ab0abae269c25a52e28f35d"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "org.jetbrains.kotlinx",
+            "name": "kotlinx-serialization-json-jvm",
+            "version": "1.11.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "kotlinx-serialization-json-jvm-1.11.0.jar",
+            "sha256": "563a25b4eb5c9128ae9c2479f3d1a5c44dcd176112b91cf03682e906eba5c935"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "org.jetbrains",
+            "name": "annotations",
+            "version": "23.0.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "annotations-23.0.0.jar",
+            "sha256": "7b0f19724082cbfcbc66e5abea2b9bc92cf08a1ea11e191933ed43801eb3cd05"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "org.jsoup",
+            "name": "jsoup",
+            "version": "1.21.2",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "jsoup-1.21.2.jar",
+            "sha256": "f05496e255734759f0d4b5632da7b24f81313147c78c69e90ad045d096191344"
+        },
+        {
+            "configuration": "releaseRuntimeClasspath",
+            "group": "org.jspecify",
+            "name": "jspecify",
+            "version": "1.0.0",
+            "classifier": null,
+            "type": "jar",
+            "artifactFile": "jspecify-1.0.0.jar",
+            "sha256": "1fad6e6be7557781e4d33729d49ae1cdc8fdda6fe477bb0cc68ce351eafdfbab"
+        }
+    ],
+    "note": "Resolved binary artifacts only. BOM constraints and build/test tools are documented separately. POM license declarations require review."
+}

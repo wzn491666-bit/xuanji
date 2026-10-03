@@ -1,0 +1,46 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+# 运行环境由 scripts/build-runtime.sh 生成，体积大，不进仓库
+app/src/main/assets/runtime/
+
+# Developer caches, machine-specific configuration and credentials
+/.vscode/
+/.DS_Store
+Thumbs.db
+*.log
+*.hprof
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+keystore.properties
+signing.properties
+google-services.json
+.netrc
+.npmrc
+.pypirc
+/.npm/
+/npm-cache/
+/*npm*cache*/
+__pycache__/
+*.py[cod]
+
+# Private experiments, captured phone state and third-party design references.
+# Keep production app resources and their license evidence in the repository.
+/output/
+/docs/design/references/
+*.apk
+*.aab
+*.apks
+*.mp4
+*.mov
+*.webm

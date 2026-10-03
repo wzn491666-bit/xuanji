@@ -1,0 +1,43 @@
+Xuanji (璇玑)
+Copyright 2026 Xuanji contributors
+
+Original contributions to Xuanji are made available under the Apache License,
+Version 2.0, as provided in LICENSE. Third-party files, components, fonts,
+license evidence and runtime distributions retain their own copyright and
+license terms. This notice does not relicense third-party material.
+
+Tianshu-harness 3.27.0
+Copyright 2025-2026 Tianshu Contributors
+https://github.com/huiliyi37/Tianshu-harness
+Licensed under the Apache License, Version 2.0.
+
+Xuanji uses the Tianshu runtime and portions of its command-driver text and
+compatibility anchors. The Android loading adapters add environment context,
+session todo access, event restoration, authenticated command routes and
+short-command history presentation. These adapters modify loaded code; the
+bundled upstream files remain on disk. See app/src/main/assets/android-runtime/
+and THIRD_PARTY_NOTICES.md for the changes and their attribution.
+
+dsh-browser
+Copyright (c) 2026 Yuxiang Lin
+https://github.com/omdsh-dev/dsh-browser
+Licensed under the MIT License.
+
+The contenteditable focus/selection/execCommand insertion algorithm in
+app/src/main/assets/browser/action.js is adapted in part from actions.ts,
+lines 305-362, commit 23895d7292495f665e5676d2f174d022bb3c3605. Xuanji adds its
+own target validation, approvals and snapshot protections. The complete original
+MIT notice is preserved in docs/open-source/license-texts/research/
+omdsh-dev--dsh-browser/LICENSE. Preserve that notice with this adapted code.
+
+The distribution also uses Android libraries, fonts and a Linux/Node runtime.
+The actual dependency inventory and original license/notice texts are in
+docs/open-source/inventory/ and docs/open-source/license-texts/. Fonts retain
+SIL Open Font License 1.1; components including PRoot and Ubuntu packages retain
+their applicable GPL, LGPL and other terms. Shizuku API 13.1.5 retains MIT terms.
+This file is an attribution index, not a substitute for those complete notices
+or for corresponding-source and other distribution obligations.
+
+See THIRD_PARTY_NOTICES.md and docs/open-source/RELEASE_CHECKLIST.md for unresolved
+source correspondence, binary distribution and media provenance checks.
+No endorsement or trademark license from any referenced project is implied.

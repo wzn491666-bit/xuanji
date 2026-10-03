@@ -1,0 +1,47 @@
+import groovy.json.JsonOutput
+import java.security.MessageDigest
+
+// Export resolved APK dependencies without changing the application's build model.
+gradle.projectsEvaluated {
+    def root = gradle.rootProject
+    root.tasks.register('exportOpenSourceDependencies') {
+        doLast {
+            def app = root.project(':app')
+            def rows = []
+            ['releaseRuntimeClasspath', 'debugRuntimeClasspath'].each { configurationName ->
+                def configuration = app.configurations.getByName(configurationName)
+                def artifacts = configuration.resolvedConfiguration.resolvedArtifacts
+                artifacts.each { artifact ->
+                    def id = artifact.moduleVersion.id
+                    def digest = MessageDigest.getInstance('SHA-256')
+                    artifact.file.withInputStream { stream ->
+                        byte[] bytes = new byte[65536]
+                        int count
+                        while ((count = stream.read(bytes)) >= 0) digest.update(bytes, 0, count)
+                    }
+                    rows.add([
+                        configuration: configurationName,
+                        group: id.group, name: id.name, version: id.version,
+                        classifier: artifact.classifier,
+                        type: artifact.type,
+                        artifactFile: artifact.file.name,
+                        sha256: digest.digest().encodeHex().toString(),
+                    ])
+                }
+            }
+            def observedArtifactRecords = rows.size()
+            rows = rows.unique { row -> [row.configuration, row.group, row.name, row.version, row.artifactFile, row.sha256, row.classifier, row.type] }
+            rows.sort { a, b -> (a.configuration + ':' + a.group + ':' + a.name + ':' + a.version + ':' + a.artifactFile) <=> (b.configuration + ':' + b.group + ':' + b.name + ':' + b.version + ':' + b.artifactFile) }
+            def output = new File(root.projectDir, 'docs/open-source/inventory/gradle-components.json')
+            output.parentFile.mkdirs()
+            output.setText(JsonOutput.prettyPrint(JsonOutput.toJson([
+                format: 'xuanji-resolved-gradle-dependencies-v1',
+                configurations: ['releaseRuntimeClasspath', 'debugRuntimeClasspath'],
+                observedArtifactRecords: observedArtifactRecords,
+                components: rows,
+                note: 'Resolved binary artifacts only. BOM constraints and build/test tools are documented separately. POM license declarations require review.'
+            ])) + '\n', 'UTF-8')
+            println "Exported ${rows.size()} resolved artifacts to docs/open-source/inventory/gradle-components.json"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">璇玑</string>
+    <string name="accessibility_service_label">璇玑屏幕助手</string>
+    <string name="accessibility_service_description">让天枢 AI 读取屏幕内容并模拟操作，实现深度融合 Android 系统。开启后 AI 可以读屏、点击、输入文字和滚动页面。</string>
+</resources>
